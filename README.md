@@ -1,5 +1,5 @@
 # My Reading Journal
 My reading journal for Code Fellows
 
-(https://github.com/T-Ingram)
+[Click to see my Github profile!](https://github.com/T-Ingram)
 
