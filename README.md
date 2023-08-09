@@ -1,6 +1,6 @@
 # My Reading Journal
 
-Hi there, my name is Trevor and welcome to my first website ever! I hope you enjoy it in all of its simplicity 🤣 Great things are bound to happen as I grow my coding skills! [Click to see my Github profile!](https://github.com/T-Ingram)
+Hi there, my name is Trevor and welcome to my first website ever! I hope you enjoy it in all of its simplicity :grin:  Great things are bound to happen as I grow my coding skills! [Click to see my Github profile!](https://github.com/T-Ingram)
 
 ## What Is A Growth Mindset?
 
