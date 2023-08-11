@@ -1,10 +1,10 @@
-# Learning Markdown Formatting Language
+## Learning Markdown Formatting Language
 
-## Why Use Markdown?
+### Why Use Markdown?
 
 First off, it helps to understand what Markdown is. Created in 2004 by John Gruber, Markdown was designed to be a simplified markup language that allows users to easily create and format text, websites, and documents. It carries a huge upside in that it's cross compatible with many different applications, further increasing it's utility. Markdown also works the same whether you have a Windows, Mac, or Linux operating system. Due to it's lightweight nature, ease of use, and interoperability features, it's no wonder why Markdown is such an obvious choice for coders to use.
 
-## Working With Markdown
+### Working With Markdown
 
 At this point you might be wondering, "So what can I do with Markdown?" Well, let's take a peak at some editing commands!
 
@@ -13,7 +13,7 @@ At this point you might be wondering, "So what can I do with Markdown?" Well, le
 - What would a good page be without links? To create a link you have mulitiple options. One way is to wrap the link text in brackets like this, " [ ] " and then using parentheses " ( ) " around the URL. You can also use Ctrl + K on Windows or Command + K on Mac.
 - If you want to create a bulleted list you can use the symbols " - ", " * ", or " + ".
 
-## Final Thoughts
+### Final Thoughts
 
 In summation, Markdown is a user friendly formatting language that has earned its place as a simple yet effective tool for the web developer, note taker, and blogger alike. Now that you've learned some commonly used commands, go take Markdown for a spin and experience it for yourself!
 
