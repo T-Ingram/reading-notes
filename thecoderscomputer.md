@@ -5,6 +5,7 @@
 #### 1. Code completion 
    - Auto completion, suggestions, open/closing tags.
 
+
 #### 2. Syntax highlighting
    - Attributes, elements, copy...all different colors.
 
