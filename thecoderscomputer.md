@@ -37,6 +37,6 @@
 3. **`touch new-project/newfile.md`**
     - This command is creating a new Markdown file in the `new-project` directory within the system.
 4. **`cd ..`**
-    - This command is allowing you to move up one level in the directory heirarchy. It can be used repeatedly to work your way back to the root directory. 
+    - This command is allowing you to move up one level in the directory hierarchy. It can be used repeatedly to work your way back to the root directory. 
 5. **`ls projects/new-project`**
     - This command tells the system to list all files within the `new-project` directory. `projects` is a directory and `new-project` is a subdirectory.
