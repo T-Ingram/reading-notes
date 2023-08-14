@@ -31,12 +31,12 @@
 ### Commonly used commands and their outputs.
 
 1. **`cd projects`**
-    - This is telling the computer to change the directory from wherever you currently are, to the directory labeled `projects`. This should return `~projects` if it has been created, otherwise it will display `no such file or directory`.
+    - This command is telling the computer to change the directory from wherever you currently are, to the directory labeled `projects`. This should return `~projects` if it has been created, otherwise it will display `no such file or directory`.
 2. **`mdir new-project`**
-    - blah     
+    - This command is telling the computer to create a directory with the file name `new-project`.     
 3. **`touch new-project/newfile.md`**
-    - blah
+    - This command is creating a new Markdown file in the `new-project` directory within the system.
 4. **`cd ..`**
-    - blah
+    - This command is allowing you to move up one level in the directory heirarchy. It can be used repeatedly to work your way back to the root directory. 
 5. **`ls projects/new-project`**
-    - blah
+    - This command tells the system to list all files within the `new-project` directory. `projects` is a directory and `new-project` is a subdirectory.
