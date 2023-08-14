@@ -6,7 +6,7 @@
    - Auto completion, suggestions, open/closing tags.
 
 2. **Syntax highlighting**
-   - Attributes, elements, copy...all different colors.
+   - Attributes, elements, copy, different colors for ease of use.
 
 3. **Variety of themes**
    - Option for dark mode, other themes, something to reduce eye strain.
@@ -18,15 +18,15 @@
 ### The command line/terminal and some commonly used commands.
 
 1. **`pwd`** 
-    - Print Working Directory. Displays current working directory.
+    - Print Working Directory. Displays the current working directory.
 2. **`ls`**
     - List. Displays what files are available in the directory.
 3. **`cd`**
     - Change Directories. It allows you to move to a different directory.
 4. **`mkdir`**
-    - Make directory. It allows you to create a directory, which can then have files placed in it. 
+    - Make Directory. It allows you to create a directory, which can then have subdirectories or files within it. 
 5. **`touch`**
-    - Updates the timestamp of a file without modifying the contents. This can also be done to an empty file.
+    - Updates the timestamp of a file without modifying the contents of the file. This can also be done to an empty file.
 
 ### Commonly used commands and their outputs.
 
