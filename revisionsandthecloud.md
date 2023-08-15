@@ -19,3 +19,4 @@ Once you've successfully staged your files, you will want to commit those files 
 ### How to send your changed files to Github?
 
 Once you're ready to synchronize your local changes to your remote repository, you need to first tell Git to push your file to the main branch. The correct command to enter is `git push origin main`. You can then type in  `git status` to verify that everything has been committed successfully. 
+ 
