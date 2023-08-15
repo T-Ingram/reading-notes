@@ -16,4 +16,3 @@ At this point you might be wondering, "So what can I do with Markdown?" Well, le
 ## Final Thoughts
 
 In summation, Markdown is a user friendly formatting language that has earned its place as a simple yet effective tool for the web developer, note taker, and blogger alike. Now that you've learned some commonly used commands, go take Markdown for a spin and experience it for yourself!
-
