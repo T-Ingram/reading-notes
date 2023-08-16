@@ -10,6 +10,7 @@ This website is a collection of my reading notes for Code 102 and Code 201. It's
 
 ### Code 102 Reading Notes
 
+- [Thought sand Observations](102/thoughtsandobservations.md)
 - [Topic 1](102/topic1.md)
 - [Topic 2](102/topic2.md)
 - [Topic 3](102/topic3.md)
