@@ -24,7 +24,6 @@ This website is a collection of my reading notes for Code 102 and Code 201. It's
 
 ### Code 102 Reading Notes
 
-- [Thoughts and Observations](102/thoughtsandobservations.md)
 - [Module 1](102/topic1.md)
 - [Module 2](102/topic2.md)
 - [Module 3](102/topic3.md)
