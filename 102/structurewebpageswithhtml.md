@@ -8,11 +8,11 @@
 
 2. *What are the 3 main parts of an HTML element?*
 
-   - The opening tag `<>` and closing tags `</>`; Pay special attention to the forward slash before the closing element name  as this must be present to close the element.
+   - The opening tag `<>` and closing tags `</>`: Pay special attention to the forward slash before the closing element name  as this must be present to close the element.
 
    - The content: This is the content of the element, which in this case, is just text.
 
-   - The element: The opening tag, the closing tag, and the content together comprise the element.
+   - The element: The opening tag, the closing tag, and the content together make up the element.
 
 3. *What is it called when you give an element extra information?*
 
