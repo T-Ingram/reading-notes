@@ -18,6 +18,7 @@ This website is a collection of my reading notes for Code 102 and Code 201. It's
 - [Module 6](102/topic6.md)
 - [Module 7](102/topic7.md)
 - [Module 8](102/topic8.md)
+- [Reading Module 04](102/structurewebpageswithhtml.md)
 
 ### Code 201 Reading Notes
 
