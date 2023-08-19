@@ -28,7 +28,7 @@
 
 - Create a CSS file and add the styling rules as followed:
 
-`/* styles.css */
+    `/* styles.css */
 p {
   color: red;
 }`
@@ -36,6 +36,6 @@ p {
 - Then link the CSS file in the `<head>` section in your HTML document as listed below:
 
 
-`<head>`
+    `<head>`
   `<link rel="stylesheet" type="text/css" href="styles.css">`
 `</head>`
