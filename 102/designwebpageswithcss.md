@@ -28,20 +28,17 @@
 
 - Create a CSS file and add the styling rules as followed:
 
-```/* styles.css */
+`/* styles.css */
 p {
   color: red;
-}```
+} `/* styles.css */
+p {
+  color: red;
+} 
 
 - Then link the CSS file in the `<head>` section in your HTML document as listed below:
 
-```<!DOCTYPE html>
-<html>
+```
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-  <p>This is a paragraph with red text.</p>
-  <p>Another paragraph with red text.</p>
-</body>
-</html>```
