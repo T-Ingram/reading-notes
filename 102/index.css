@@ -1,8 +1,22 @@
+
+/* Apply a linear gradient background */
 body {
-    background: linear-gradient(circle, #006400, #abb8ab);
-    /* You can adjust the colors and direction as needed */
+    background: linear-gradient(to bottom, #007bff, #ffffff); /* Replace these colors with your desired gradient */
   }
-  /* index.css */
+  
+  /* Change the font of the title */
+  h1 {
+    font-family: Arial, sans-serif; /* Replace with your desired font-family */
+    color: #333; /* Change the font color */
+  }
+  
+  /* Add borders around text */
+  section, header, main, footer {
+    border: 1px solid #333; /* Add borders with a color of your choice */
+    padding: 20px; /* Add some padding to create spacing between content and borders */
+  }
+  
+
 
 section {
     margin: 20px 0;
