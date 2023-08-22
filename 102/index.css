@@ -6,8 +6,7 @@ body {
   
   /* Change the font of the title */
   h1 {
-    font-family: Arial, sans-serif; /* Replace with your desired font-family */
-    font-size:italic;
+    font-family: Georgia, serif; /* Replace with your desired font-family */
     color: #010101; /* Change the font color */
   }
   
