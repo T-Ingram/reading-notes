@@ -6,7 +6,7 @@
 
 ## 2. What does it mean to declare a variable
 
-* *Declaring a variable means creating a new container with a specific name. This variable tells Javascript to store data in its memory with the new container. Typical variable declarations can use the keywords “var, let, or const”. This command would generally look like this, **`let age;`** with **`age`** representing a newly declared variable.*
+* *Declaring a variable means creating a new container with a specific name. This variable tells Javascript to store data in its memory with the new container. Typical variable declarations can use the keywords **`var`**, **`let`**, or **`const`**. This command would generally look like this, **`let age;`** with **`age`** representing a newly declared variable.*
 
 ## 3. What is an “assignment” operator, and what does it do
 
