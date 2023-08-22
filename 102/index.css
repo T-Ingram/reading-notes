@@ -2,3 +2,34 @@ body {
     background: linear-gradient(circle, #006400, #abb8ab);
     /* You can adjust the colors and direction as needed */
   }
+  /* index.css */
+
+section {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 auto;
+    max-width: 75%;
+    text-align: center;
+    padding: 20px 20px 20px 0px;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 20px;
+}
+
+/* Add more styles as needed */
+
