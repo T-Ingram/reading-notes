@@ -13,7 +13,7 @@ body {
   
   /* Add borders around text */
   section, header, main, footer {
-    border: 1px solid #333; /* Add borders with a color of your choice */
+    border: 4px solid #333; /* Add borders with a color of your choice */
     padding: 20px; /* Add some padding to create spacing between content and borders */
   }
   
