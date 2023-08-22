@@ -1,4 +1,4 @@
 body {
-    background: conic-gradient(from 45deg, #3e783e, #516551);
+    background: radial-gradient(circle, #006400, #00FF00);
     /* You can adjust the colors and direction as needed */
   }
