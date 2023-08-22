@@ -1,13 +1,14 @@
 
 /* Apply a linear gradient background */
 body {
-    background: linear-gradient(to bottom, #007bff, #ffffff); /* Replace these colors with your desired gradient */
+    background: linear-gradient(to bottom, #0279f881, #0ff1e27f); /* Replace these colors with your desired gradient */
   }
   
   /* Change the font of the title */
   h1 {
     font-family: Arial, sans-serif; /* Replace with your desired font-family */
-    color: #333; /* Change the font color */
+    font-size:italic;
+    color: #010101; /* Change the font color */
   }
   
   /* Add borders around text */
