@@ -10,8 +10,8 @@
 
 ## 3. What is an “assignment” operator, and what does it do
 
-* *Simply put an assignment operator is used to assign a value to a variable. Assignment operators take the value on the right side, separated by an `=` sign, and apply it to the variable on its left. This command would look like this, `let age; age = 20`.*
+* *Simply put an assignment operator is used to assign a value to a variable. Assignment operators take the value on the right side, separated by an `=` sign, and apply it to the variable on its left. This command would look like this, **`let age; age = 20`**.*
 
 ## 4. What is information received from the user called
 
-* *Information recieved from the user is called user input or user data. Oftentimes this is gathered with the `prompt()` function to get information from the user. Once this info is entered, it can then be used for many purposes within a program. If the prompt function was used it would look like this, `let username = prompt("Enter your name here");`.*
+* *Information recieved from the user is called user input or user data. Oftentimes this is gathered with the **`prompt()`** function to get information from the user. Once this info is entered, it can then be used for many purposes within a program. If the prompt function was used it would look like this, **`let username = prompt("Enter your name here");`**.*
