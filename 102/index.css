@@ -20,6 +20,7 @@ body {
 
 section {
     margin: 20px 0;
+    borders: 4px solid #33333335;
 }
 
 img {
