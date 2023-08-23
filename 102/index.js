@@ -1,4 +1,4 @@
-
+// index.js
 
 function displayCurrentDate() {
     const currentDateElement = document.getElementById("currentDate");
@@ -8,6 +8,7 @@ function displayCurrentDate() {
 
 // Call the function to display the date when the page loads
 displayCurrentDate();
+
 
 
 
@@ -26,6 +27,6 @@ function displayInstructions() {
     } else if (transmissionType === "manual") {
         instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
     } else {
-        instructionMessage.textContent = "what does this do?";
+        instructionMessage.textContent = "";
     }
 }
