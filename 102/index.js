@@ -23,7 +23,7 @@ function displayInstructions() {
     } else {
         // Invalid selection, show an error message
         instructionMessage.textContent = "Please select a valid transmission type.";
-        transmissionSelect.value = ""; // Clear the selection
+        transmissionSelect.value = "Potato"; // Clear the selection
         transmissionSelect.focus(); // Place focus back on the select element
     }
 }
