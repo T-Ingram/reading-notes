@@ -14,5 +14,5 @@ displayCurrentDate();
 function displayGreeting() {
     const userName = document.getElementById("userName").value;
     const greetingMessage = document.getElementById("greetingMessage");
-    greetingMessage.textContent = `Hello, ${userName}! Welcome to our oil change guide.`;
+    greetingMessage.textContent = `Hello, ${userName}! Welcome to your oil change guide!`;
 }
