@@ -1,6 +1,6 @@
 // index.js
 
-function displayCurrentDate() {
+function displayCurrentDate(8/22/2023) {
     const currentDateElement = document.getElementById("currentDate");
     const currentDate = new Date();
     currentDateElement.textContent = `Today's Date: ${currentDate.toDateString()}`;
