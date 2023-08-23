@@ -30,7 +30,17 @@
             <p id="greetingMessage"></p>
         </section>
     </header>
- 
+    
+    <section>
+        <h2>Transmission Type</h2>
+        <label for="transmission">Select Your Transmission Type:</label>
+        <select id="transmission" onchange="displayInstructions()">
+            <option value="automatic">Automatic</option>
+            <option value="manual">Manual</option>
+        </select>
+        <p id="instructionMessage"></p>
+    </section>
+
     <main style="margin: 0 auto; max-width: 75%; padding: 20px;">
 
         <section style="display: flex; justify-content: center; align-items: center;">

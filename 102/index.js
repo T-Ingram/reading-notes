@@ -1,6 +1,6 @@
-// index.js
 
-function displayCurrentDate(8/22/2023) {
+
+function displayCurrentDate() {
     const currentDateElement = document.getElementById("currentDate");
     const currentDate = new Date();
     currentDateElement.textContent = `Today's Date: ${currentDate.toDateString()}`;
@@ -9,10 +9,23 @@ function displayCurrentDate(8/22/2023) {
 // Call the function to display the date when the page loads
 displayCurrentDate();
 
-// index.js
+
 
 function displayGreeting() {
     const userName = document.getElementById("userName").value;
     const greetingMessage = document.getElementById("greetingMessage");
     greetingMessage.textContent = `Hello, ${userName}! Welcome to your oil change guide!`;
+}
+
+function displayInstructions() {
+    const transmissionType = document.getElementById("transmission").value;
+    const instructionMessage = document.getElementById("instructionMessage");
+
+    if (transmissionType === "automatic") {
+        instructionMessage.textContent = "For automatic transmission vehicles, follow these instructions...";
+    } else if (transmissionType === "manual") {
+        instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
+    } else {
+        instructionMessage.textContent = "";
+    }
 }
