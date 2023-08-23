@@ -16,9 +16,9 @@ function displayInstructions() {
     const instructionMessage = document.getElementById("instructionMessage");
 
     if (transmissionType === "automatic") {
-        instructionMessage.textContent = "For automatic transmission vehicles, follow these instructions...https://t-ingram.github.io/reading-notes/102/index.html";
+        instructionMessage.textContent = "For automatic transmission vehicles, follow the instructions below";
     } else if (transmissionType === "manual") {
-        instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
+        instructionMessage.textContent = "For manual transmission vehicles, follow the instructions below";
     } else {
         instructionMessage.textContent = "";
     }
