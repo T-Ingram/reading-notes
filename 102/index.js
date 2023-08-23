@@ -18,14 +18,14 @@ function displayGreeting() {
 }
 
 function displayInstructions() {
-    const transmission = document.getElementById("transmission").value;
+    const transmissionType = document.getElementById("transmission").value;
     const instructionMessage = document.getElementById("instructionMessage");
 
-    if (transmission === "automatic") {
+    if (transmissionType === "automatic") {
         instructionMessage.textContent = "For automatic transmission vehicles, follow these instructions...";
-    } else if (transmission === "manual") {
+    } else if (transmissionType === "manual") {
         instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
     } else {
-        instructionMessage.textContent = "";
+        instructionMessage.textContent = "what does this do?";
     }
 }
