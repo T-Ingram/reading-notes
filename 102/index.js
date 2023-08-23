@@ -12,14 +12,18 @@ function displayGreeting() {
 }
 
 function displayInstructions() {
-    const transmissionType = document.getElementById("transmission").value;
+    const transmissionSelect = document.getElementById("transmission");
+    const selectedTransmission = transmissionSelect.value;
     const instructionMessage = document.getElementById("instructionMessage");
 
-    if (transmissionType === "automatic") {
-        instructionMessage.textContent = "For automatic transmission vehicles, follow the instructions below";
-    } else if (transmissionType === "manual") {
-        instructionMessage.textContent = "For manual transmission vehicles, follow the instructions below";
+    if (selectedTransmission === "automatic") {
+        instructionMessage.textContent = "For automatic transmission vehicles, follow these instructions...";
+    } else if (selectedTransmission === "manual") {
+        instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
     } else {
-        instructionMessage.textContent = "";
+        // Invalid selection, show an error message
+        instructionMessage.textContent = "Please select a valid transmission type.";
+        transmissionSelect.value = ""; // Clear the selection
+        transmissionSelect.focus(); // Place focus back on the select element
     }
 }
