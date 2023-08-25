@@ -51,7 +51,7 @@ function showImages() {
         const imageContainer = document.getElementById("imageContainer");
         imageContainer.innerHTML = ""; // Clear previous images
 
-        for (let i = 0; i < numOfImages; i++) {
+        for (let i = 1; i < numOfImages; i++) {
             const image = document.createElement("img");
             image.src = "https://www.shutterstock.com/image-illustration/motor-oil-bottle-isolated-on-white-1614433003"; // Replace with the actual image URL
             image.alt = "Oil Change Image";
