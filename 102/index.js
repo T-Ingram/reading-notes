@@ -53,7 +53,7 @@ function showImages() {
 
         for (let i = 0; i < numOfImages; i++) {
             const image = document.createElement("img");
-            image.src = "URL_TO_YOUR_IMAGE"; // Replace with the actual image URL
+            image.src = "https://www.shutterstock.com/image-illustration/motor-oil-bottle-isolated-on-white-1614433003"; // Replace with the actual image URL
             image.alt = "Oil Change Image";
             imageContainer.appendChild(image);
         }
