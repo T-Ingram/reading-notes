@@ -29,3 +29,44 @@ function displayInstructions() {
         transmissionSelect.value = ""; // Clear the selection
     }
 }
+
+function validateInput() {
+    const numOfImagesInput = document.getElementById("numOfImages");
+    const errorText = document.getElementById("errorText");
+    const numOfImages = parseInt(numOfImagesInput.value);
+
+    if (isNaN(numOfImages) || numOfImages <= 0) {
+        errorText.textContent = "Please enter a valid positive number.";
+        return null;
+    }
+
+    errorText.textContent = "";
+    return numOfImages;
+}
+
+function showImages() {
+    const numOfImages = validateInput();
+
+    if (numOfImages !== null) {
+        const imageContainer = document.getElementById("imageContainer");
+        imageContainer.innerHTML = ""; // Clear previous images
+
+        for (let i = 0; i < numOfImages; i++) {
+            const image = document.createElement("img");
+            image.src = "URL_TO_YOUR_IMAGE"; // Replace with the actual image URL
+            image.alt = "Oil Change Image";
+            imageContainer.appendChild(image);
+        }
+    }
+}
+
+function validateInput() {
+    // Input validation logic
+}
+
+function showImages() {
+    // Display images logic
+}
+
+// Call the functions as needed, e.g., in response to user actions or events
+
