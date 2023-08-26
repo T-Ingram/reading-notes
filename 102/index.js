@@ -23,12 +23,8 @@ function displayInstructions() {
         instructionMessage.textContent = "For automatic transmission vehicles, follow these instructions...";
         // Valid transmission type selected
         // Ask the user for the number of times to display the image
-      
-    } else if (selectedTransmission === "manual") {
-        instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
-        // Valid transmission type selected
-            // Ask the user for the number of times to display the image
         const numImages = parseInt(prompt("How many times would you like to see the image?"));
+        
         if (!isNaN(numImages) && numImages > 0) {
             // Display the image 'numImages' times
             displayImages(numImages);
@@ -36,6 +32,11 @@ function displayInstructions() {
         } else {
             instructionMessage.textContent = "Please enter a valid number greater than 0.";
         }
+    } else if (selectedTransmission === "manual") {
+        instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
+        // Valid transmission type selected
+
+
         } else {
         // Invalid selection, show an error message
         instructionMessage.textContent = "Please select a valid transmission type.";
