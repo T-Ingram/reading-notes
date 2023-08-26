@@ -24,7 +24,7 @@ function displayInstructions() {
         // Ask the user for the number of times to display the image
         const numImagesInput = prompt("How many times would you like to see the image?");
 
-        if (isValidNumber(numImagesInput)) {
+        else if (isValidNumber(numImagesInput)) {
             const numImages = parseInt(numImagesInput);
         // Display the image 'numImages' times
             displayImages(numImages);
