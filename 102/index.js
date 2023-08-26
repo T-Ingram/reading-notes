@@ -60,13 +60,3 @@ function showImages() {
     }
 }
 
-function validateInput() {
-    // Input validation logic
-}
-
-function showImages() {
-    // Display images logic
-}
-
-// Call the functions as needed, e.g., in response to user actions or events
-
