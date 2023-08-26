@@ -59,7 +59,7 @@ function displayImages(numImages) {
 
     for (let i = 0; i < numImages; i++) {
         const img = document.createElement("img");
-        img.src = "https://create.vista.com/unlimited/stock-photos/382089630/stock-photo-automatic-transmission-gearbox-cross-section-automobile-transmission-gearbox-white-background";
+        img.src = "https://www.shutterstock.com/image-photo/automatic-transmission-gearbox-automobile-sections-757525762";
         img.alt = "automatic transmission";
         img.width = 200;
         imageSection.appendChild(img);
