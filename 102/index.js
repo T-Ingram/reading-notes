@@ -11,19 +11,6 @@ function displayGreeting() {
     greetingMessage.textContent = `Hello, ${userName}! Welcome to your oil change guide!`;
 }
 
-function displayCurrentDate() {
-    const currentDateElement = document.getElementById("currentDate");
-    const currentDate = new Date();
-    currentDateElement.textContent = `Today's Date: ${currentDate.toDateString()}`;
-}
-displayCurrentDate();
-
-function displayGreeting() {
-    const userName = document.getElementById("userName").value;
-    const greetingMessage = document.getElementById("greetingMessage");
-    greetingMessage.textContent = `Hello, ${userName}! Welcome to your oil change guide!`;
-}
-
 function displayInstructions() {
     const transmissionSelect = document.getElementById("transmission");
     const selectedTransmission = transmissionSelect.value;
@@ -34,11 +21,11 @@ function displayInstructions() {
         instructionMessage.textContent = "Please select a valid transmission type.";
     } else if (selectedTransmission === "automatic") {
         instructionMessage.textContent = "For automatic transmission vehicles, follow these instructions...";
-        // Valid transmission type selected
         // Ask the user for the number of times to display the image
-        const numImages = parseInt(prompt("How many times would you like to see the image?"));
+        const numImagesInput = prompt("How many times would you like to see the image?");
 
-        if (!isNaN(numImages) && numImages > 0) {
+        if (isValidNumber(numImagesInput)) {
+            const numImages = parseInt(numImagesInput);
         // Display the image 'numImages' times
             displayImages(numImages);
             instructionMessage.textContent = "";
@@ -61,7 +48,7 @@ function displayImages(numImages) {
 
     for (let i = 0; i < numImages; i++) {
         const img = document.createElement("img");
-        img.src = "https://create.vista.com/unlimited/stock-photos/382089630/stock-photo-automatic-transmission-gearbox-cross-section-automobile-transmission-gearbox-white-background/;
+        img.src = "https://create.vista.com/unlimited/stock-photos/382089630/stock-photo-automatic-transmission-gearbox-cross-section-automobile-transmission-gearbox-white-background";
         img.alt = "automatic transmission";
         img.width = 200;
         imageSection.appendChild(img);
