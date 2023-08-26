@@ -30,6 +30,24 @@ function displayInstructions() {
     }
 }
 
+
+
+function showImages() {
+    const numOfImages = validateInput();
+
+    if (numOfImages !== null) {
+        const imageContainer = document.getElementById("imageContainer");
+        imageContainer.innerHTML = ""; // Clear previous images
+
+        for (let i = 0; i < numOfImages; i++) {
+            const image = document.createElement("img");
+            image.src = "https://www.shutterstock.com/image-illustration/motor-oil-bottle-isolated-on-white-1614433003"; // Replace with the actual image URL
+            image.alt = "Oil Change Image";
+            imageContainer.appendChild(image);
+        }
+    }
+}
+
 function validateInput() {
     const numOfImagesInput = document.getElementById("numOfImages");
     const errorText = document.getElementById("errorText");
@@ -43,20 +61,3 @@ function validateInput() {
     errorText.textContent = "";
     return numOfImages;
 }
-
-function showImages() {
-    const numOfImages = validateInput();
-
-    if (numOfImages !== null) {
-        const imageContainer = document.getElementById("imageContainer");
-        imageContainer.innerHTML = ""; // Clear previous images
-
-        for (let i = 1; i < numOfImages; i++) {
-            const image = document.createElement("img");
-            image.src = "https://www.shutterstock.com/image-illustration/motor-oil-bottle-isolated-on-white-1614433003"; // Replace with the actual image URL
-            image.alt = "Oil Change Image";
-            imageContainer.appendChild(image);
-        }
-    }
-}
-
