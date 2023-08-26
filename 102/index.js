@@ -35,6 +35,9 @@ function displayInstructions() {
     } else if (selectedTransmission === "manual") {
         instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
         // Valid transmission type selected
+        //display the image 'numImages' times for manual transmission
+        displayImages(numImages);
+        instructionMessage.textContent = ""
     } else {
         // Invalid selection, show an error message
         instructionMessage.textContent = "Please select a valid transmission type.";
