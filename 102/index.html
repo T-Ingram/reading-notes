@@ -122,6 +122,17 @@
             </div>
         </section>
 
+        <section>
+            <h2>Transmission Type</h2>
+            <label for="transmission">Select Your Transmission Type:</label>
+            <select id="transmission" onchange="displayInstructions()">
+                <option value="">Select Transmission Type</option>
+                <option value="automatic">Automatic</option>
+                <option value="manual">Manual</option>
+            </select>
+            <p id="instructionMessage"></p>
+        </section>
+
         <section style="display: flex;">
             <div style="flex: 1;">
                 <h2>Step 9.</h2>

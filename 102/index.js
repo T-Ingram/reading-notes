@@ -39,7 +39,6 @@ function displayInstructions() {
         // Invalid selection, show an error message
         instructionMessage.textContent = "Please select a valid transmission type.";
         transmissionSelect.value = ""; // Clear the selection
-
     }
 }
 
