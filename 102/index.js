@@ -26,7 +26,8 @@ function displayInstructions() {
         const numImages = parseInt(prompt("How many times would you like to see the image?"));
     } else if (selectedTransmission === "manual") {
         instructionMessage.textContent = "For manual transmission vehicles, follow these instructions...";
-       // Valid transmission type selected
+        // Valid transmission type selected
+        const numImages = parseInt(prompt("How many times would you like to see the image?"));
         } else {
         // Invalid selection, show an error message
         instructionMessage.textContent = "Please select a valid transmission type.";
