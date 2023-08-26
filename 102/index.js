@@ -39,7 +39,7 @@ function displayInstructions() {
         const numImages = parseInt(prompt("How many times would you like to see the image?"));
 
         if (!isNaN(numImages) && numImages > 0) {
-            // Display the image 'numImages' times
+        // Display the image 'numImages' times
             displayImages(numImages);
             instructionMessage.textContent = "";
         } else {
@@ -61,9 +61,9 @@ function displayImages(numImages) {
 
     for (let i = 0; i < numImages; i++) {
         const img = document.createElement("img");
-        img.src = "https://images.unsplash.com/photo-1603598154505-0192e5365a35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80";
-        img.alt = "Toyota Tacoma";
-        img.width = 600;
+        img.src = "https://create.vista.com/unlimited/stock-photos/382089630/stock-photo-automatic-transmission-gearbox-cross-section-automobile-transmission-gearbox-white-background/;
+        img.alt = "automatic transmission";
+        img.width = 200;
         imageSection.appendChild(img);
     }
 }
