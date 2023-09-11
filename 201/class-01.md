@@ -1,6 +1,6 @@
 # Reading notes - 01
 
-The topics covered in today's reading material matters because as web devolpers-in-training we need to know not only what we're doing, but the *why* and *how* behind it. In learning the *why* and *how* we'll be able to better connect the dots as to the cause and effect when writing code as well as the reason for the structure as it's developed through the years.
+The topics covered in today's reading material matters because as web developers-in-training we need to know not only what we're doing, but the *why* and *how* behind it. In learning the *why* and *how* we'll be able to better connect the dots as to the cause and effect when writing code as well as the reason for the structure as it's developed through the years.
 
 ## **How the Internet works**
 
