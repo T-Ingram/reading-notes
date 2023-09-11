@@ -90,3 +90,5 @@ Example: `(let variableOne = 1);`
 ### 2. How can you add JavaScript to an HTML document?
 
 - You can either use the element `script` inline (directly in the HTML document), or you can use reference an external file by using `src=document.js`. It is generally best practice to use an external JavaScript file.
+
+## Things I want to know more about
