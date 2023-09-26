@@ -1,6 +1,6 @@
 # Reading notes - 05
 
-Todays topic is important because when we're developing web pages we need to create them in a way that meets the users ecpectations. By this I mean, using text that is easy to read, font styles that flow well with eachother, and colors that break up a plain background while not being so loud that they distract from the message trying to be conveyed on the webpage.
+Todays topic is important because when we're developing web pages we need to create them in a way that meets the users expectations. By this I mean, using text that is easy to read, font styles that flow well with each other, and colors that break up a plain background while not being so loud that they distract from the message trying to be conveyed on the webpage.
 
 ## HTML Media
 
