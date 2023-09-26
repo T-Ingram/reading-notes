@@ -46,7 +46,7 @@ Todays topic is important because when we're developing web pages we need to cre
 
 - Font size is used to increase or decrease the rendered font size, described in pixels.
 - Font weight is used to set the amount of boldness the font is given. This can be given a name value such as light or bold, or given a pixel value from 100-900.
-- Font style is used to set text to italicised or standard.
+- Font style is used to set text to italicized or standard.
 
 #### 5. Describe two ways you could add spacing around the characters displayed in an h1 element.
 
