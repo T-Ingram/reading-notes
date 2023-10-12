@@ -16,7 +16,7 @@ This topic is important because it allows us as coders to keep objects simplifie
 
 #### 3. How do objects differ from arrays?
 
-Objects contain key-value pairs and the data within the object can be any data type. This data can also be extracted in any order,whereas the data in arrays is generally ordered in a sequential order and can be extracted by calling a number representing the element.
+- Objects contain key-value pairs and the data within the object can be any data type. This data can also be extracted in any order,whereas the data in arrays is generally ordered in a sequential order and can be extracted by calling a number representing the element.
 
 #### 4. Give an example for when you would need to use bracket notation to access an object’s property instead of dot notation.
 
