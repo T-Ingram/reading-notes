@@ -1,5 +1,7 @@
 # Reading Journal
 
+This topic is important because forms are something we interact with everyday. Forms are used when providing feedback, placing online orders, or inputting data to be gathered and used to elsewhere. Knowing how to create a form is a skill that can be used in everyday web development.
+
 ## HTML Forms
 
 ### Your first Web Form. How To Structure A Web Form.
@@ -41,3 +43,5 @@
 - The main difference between the two is how the event is captured. In event bubbling, the event is handled from the target and travels throughout up to the root element, while event capturing intercepts the event before it gets to the target and then works its way down to the target.
 
 ## Things I want to know more about.
+
+I'd like to know more about CSS and what options it has to customize the various elements within the form tag.
