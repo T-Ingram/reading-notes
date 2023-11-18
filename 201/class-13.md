@@ -16,7 +16,7 @@ This topic is important because it teaches me what options I have to create a st
 
 #### 3. Local storage can store what type of data? How would you convert it to that type before storing?
 
-- Local storage can only store strings, but when an object needs to be stored using local storage, it's unable to do so. In order to get around this limitation, we can use the JSON.stringify() to convert an object into a string while still keeping its structure intact, which will allow it to be stored correctly on local storage. When we need to get this data from storage we are able to use the JSON.parse() method to convert it back to its original data type.
+- Local storage can only store strings, but when an object needs to be stored using local storage, it's unable to do so. In order to get around this limitation, we can use the `JSON.stringify()` to convert an object into a string while still keeping its structure intact, which will allow it to be stored correctly on local storage. When we need to get this data from storage we are able to use the `JSON.parse()` method to convert it back to its original data type.
 
 ## Things I want to know more about.
 
