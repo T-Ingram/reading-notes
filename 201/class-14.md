@@ -1,5 +1,7 @@
 # Reading Journal
 
+This topic is important to me because not only is proper web styling aesthetically pleasing but it helps with user engagement. Nobody wants to visit a website that is clunky or feels like it was an after thought. Proper use of transitions and animations can increase the dynamic nature of a site and also act as a form of nonverbal communication which further helps guide the end user.
+
 ## Reading
 
 ### CSS Transforms
