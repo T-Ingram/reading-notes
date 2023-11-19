@@ -32,6 +32,7 @@ This website is a collection of my reading notes for Code 102 and Code 201. It's
 - [Reading Notes 13](201/class-13.md)
 - [Reading Notes 14](201/class-14.md)
 - [Reading Notes 15](201/class-15.md)
+- [Pyschological Safety](201/psych-safety.md)
 
 ## Code 301 - Intermediate Software Development
 
