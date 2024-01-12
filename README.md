@@ -1,6 +1,6 @@
 # Reading Notes
 
-This website is a collection of my reading notes for Code 102 and Code 201. It's a way for me to document my learning journey and share my insights with others. Here you'll find my reading notes for Code 102 and Code 201, along with other content.
+This website is a collection of my reading notes I've taken during my time at Code Fellows. It's a way for me to document my learning journey and share my insights with others. Here you'll find my reading notes for Code 102, 201, 301, and 401, along with other content.
 
 ## *Table of Contents*
 
