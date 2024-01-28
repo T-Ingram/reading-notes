@@ -1,6 +1,6 @@
 # Reading Journal
 
-
+Understanding React lifecycle methods is crucial as it allows us to manage the various stages of a component's existence. Distinguishing between state and props is neccessary to effectively control data, with state representing mutable data within a component and props representing immutable data from parent components. This knowledge is essential for maintaining a clear and predictable flow of data in React applications.
 
 ## Reading
 
@@ -44,3 +44,4 @@
 
 ## Things I want to know more about.
 
+I want to get a better understanding of React and how to use it. It seems like React has a very practical purpose which makes it very useful in real world applications.
