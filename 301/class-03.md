@@ -34,19 +34,19 @@ This topic is important because passing functions between components is essentia
 
 #### 3. Give an example of using the spread operator to combine two arrays.
 
-- `const arrayOne = [1, 3, 5];`
+`const arrayOne = [1, 3, 5];`
 `const arrayTwo = [2, 4, 6];`
 
 `const combineArray = [...arrayOne, ...arrayTwo];`
 
 #### 4. Give an example of using the spread operator to add a new item to an array.
 
-- `const ogArray = [1, 3, 5];`
+`const ogArray = [1, 3, 5];`
 `const newArray = [...ogArray, 7];`
 
 #### 5. Give an example of using the spread operator to combine two objects into one.
 
-- `const person = {name: 'John', age: 25, gender: 'male' };`
+`const person = {name: 'John', age: 25, gender: 'male' };`
 `const addInfo = {age: 26, city: 'New York' };`
 
 `const updatedPerson = {...person, ...addInfo };`
