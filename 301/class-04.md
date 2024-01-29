@@ -14,7 +14,7 @@ Controlled components play an important role in managing the state of form eleme
 
 - Ultimately it depends on the setup of the form and what goal is trying to be achieved. If you were to update the state as the user enters a response then it would dynamically change the state which could be useful if you wanted to show or hide components based on the entered data. One example - when shopping for car parts, you need to select the make, year, and model to narrow down what parts you can purchase that fit that particular vehicle.
 
-If you wanted to submit an address form then you would be ok to submit the data all at once and change the state in one shot.
+- If you wanted to submit an address form then you would be ok to submit the data all at once and change the state in one shot.
 
 #### 3. How do we target what the user is entering if we have an event handler on an input field?
 
