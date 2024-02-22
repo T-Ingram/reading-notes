@@ -44,9 +44,9 @@ Understanding the work of Roy Fielding and topics like HTTP, REST, and web archi
 
 - Causes a partial update to take place.
 
-# API Keys
+## API Keys
 
-## Request a personal API key from the following APIs. You should receive these in your email within a few hours, often within minutes. Please request these keys prior to lecture to allow adequate time because you will need them in order to complete your lab assignment. Note: do not post your API keys in the Canvas discussion or on GitHub. Save them in a secure place.
+### Request a personal API key from the following APIs. You should receive these in your email within a few hours, often within minutes. Please request these keys prior to lecture to allow adequate time because you will need them in order to complete your lab assignment. Note: do not post your API keys in the Canvas discussion or on GitHub. Save them in a secure place.
 
 ### Geocoding API
 
