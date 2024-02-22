@@ -1,5 +1,7 @@
 # Reading Journal
 
+Understanding the work of Roy Fielding and topics like HTTP, REST, and web architecture is crucial because they form the backbone of how the internet functions and how websites are built. These concepts are important in the tech industry, and knowing them can lead to job opportunities in web development and software engineering. Learning about HTTP and REST helps me design better websites and solve problems more effectively in my coding projects.
+
 ## Reading
 
 ### What Google Learned From Its Quest to Build the Perfect Team
@@ -71,3 +73,5 @@
 - Yes.
 
 ## Things I want to know more about.
+
+I want to know more about the history of HTTP and think I might research Roy Fielding outside of school.
