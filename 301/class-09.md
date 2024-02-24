@@ -48,4 +48,4 @@ Understanding functional programming concepts teaches me to write code in a way 
 
 ## Things I want to know more about.
 
-I would really like to be more comfortable with the terminalogy that is presented in this section. I get it when I look it up, but off memory...it's a little confusing.
+I would really like to be more comfortable with the terminology that is presented in this section. I get it when I look it up, but off memory...it's a little confusing.
